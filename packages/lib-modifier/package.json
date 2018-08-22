@@ -3,9 +3,13 @@
   "version": "0.0.1",
   "description": "Library for parsing Path of Exile modifiers",
   "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
   "repository": "https://github.com/jfromell/poe-toobox.git",
   "author": "Jonas Fromell <jonas.per.fromell@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "prepublish": "tsc -p tsconfig.build.json"
+  },
   "devDependencies": {
     "@types/jest": "^23.3.1",
     "typescript": "^3.0.1"
