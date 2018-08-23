@@ -6,6 +6,11 @@ const modifiers = {
         type: "ADD",
         value: 40,
     },
+    "18% increased Evasion Rating": {
+        attribute: "EV",
+        type: "INC",
+        value: 18,
+    },
 };
 
 describe(".parse", () => {
